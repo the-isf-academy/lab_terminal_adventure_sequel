@@ -48,6 +48,8 @@ def check_sandwich_maker():
 
         with open('.sandwich_maker.txt', 'w') as f:
             f.write('True')
+        check_supplies()
+
 
 def check_supplies():
     global SUPPLIES
@@ -85,9 +87,16 @@ def sandwich():
 
     print_slow("Take a look at your sandwich!",TEXT_SPEED)
 
+
+
 def already_eaten():
     print_slow("you just ate!",TEXT_SPEED)
     print_slow("go check in with the Captain.",TEXT_SPEED)
+
+    print("\n")
+
+    print_slow("Once you're done, go check back in with the Captain.",TEXT_SPEED)
+
 
 
 
@@ -99,7 +108,6 @@ if AWAKE == 'False':
 
 else:
     check_sandwich_maker()
-    check_supplies()
 
     if SANDWICH_MAKER == 'False' or SUPPLIES == 'False':
         insufficient_suppplies()
