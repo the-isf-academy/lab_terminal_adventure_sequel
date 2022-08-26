@@ -38,7 +38,7 @@ def already_welcome():
 def end():
     print_slow("So, looks like the Chef get you sorted.\n",TEXT_SPEED)
     print_slow("Hope it was to your liking.\n",TEXT_SPEED)
-    print_slow("*shurgs*",TEXT_SPEED/2)
+    print_slow("*shrugs*",TEXT_SPEED/2)
     print_slow("\nWell... You're adventure has finally come to end.",TEXT_SPEED)
     print_slow("Time to create your own adventure!",TEXT_SPEED)
 
@@ -62,4 +62,3 @@ elif WELCOME == 'False':
     welcome()
 else:
     already_welcome()
-
