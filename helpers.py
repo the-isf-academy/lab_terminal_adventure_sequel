@@ -9,4 +9,4 @@ def print_slow(str,seconds):
     sys.stdout.write('\n')
 
 
-TEXT_SPEED = 0.05
+TEXT_SPEED = 0.02

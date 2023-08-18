@@ -1,5 +1,4 @@
 import os
-from sre_constants import SUCCESS
 from helpers import print_slow, TEXT_SPEED
 
 complete_file = open("kitchen/chef/.complete.txt", "r")
