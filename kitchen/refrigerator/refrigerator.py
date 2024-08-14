@@ -22,6 +22,7 @@ def cabinet():
     os.system('cp ./../../.assets/meats2.jpeg .')
     os.system('cp ./../../.assets/meats3.jpeg .')
     os.system('cp ./../../.assets/lettuce.png .')
+    os.system('cp ./../../.assets/tomato.jpeg')
 
     print_slow("What kind of sandwich do I want?",TEXT_SPEED)
 
