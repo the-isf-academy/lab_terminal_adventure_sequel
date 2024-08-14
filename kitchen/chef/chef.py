@@ -35,7 +35,7 @@ def chef_awakens():
 
     print_slow("Ahh, I see. You're hungry and would like a sandwich!",TEXT_SPEED)
     print_slow("No problem young sea explorer.",TEXT_SPEED)
-    print_slow("Go gather sandwich ingredients, put them all in a 'sandwich_maker'",TEXT_SPEED)
+    print_slow("Go gather sandwich ingredients, put them all in folder called  'sandwich_maker'",TEXT_SPEED)
     print_slow("Then come back to me and I'll whip it up for you.",TEXT_SPEED)
 
 
@@ -67,14 +67,14 @@ def check_supplies():
 
 def insufficient_suppplies():
     print_slow("Sorry pal, looks like you're still not prepared.",TEXT_SPEED)
-    print_slow("All items gotta be in 'sandwich_maker.",TEXT_SPEED)
+    print_slow("All items gotta be in folder called 'sandwich_maker'.",TEXT_SPEED)
     print_slow("And a `sandwich_maker` needs at least 3 items to work.",TEXT_SPEED)
 
 
     print_slow("\nHmmmmm......",.03)
 
     print_slow("\nI vaguely remember the Captain saying: ",TEXT_SPEED)
-    print_slow("  - mkdir can make a sandwich maker",TEXT_SPEED)
+    print_slow("  - mkdir can make a 'sandwich_maker'",TEXT_SPEED)
     print_slow("  - to move items us 'mv' ",TEXT_SPEED)
 
 def sandwich():
